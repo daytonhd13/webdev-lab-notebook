@@ -1,6 +1,53 @@
-@media (min-width: 1024px) {
+body {
+  margin: 0;
+}
+
+header {
+  background: var(--black);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: 20px 28px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+@media (min-width: 769px) {
   body {
     background: var(--green);
     color: var(--white);
+  }
+
+  nav li {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 414px) {
+  body {
+    background: var(--purple);
+    color: var(--white);
+  }
+
+  nav li {
+    display: block;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 768px) {
+  body {
+    background: var(--orange);
+    color: var(--black);
+  }
+
+  nav li {
+    display: inline-block;
   }
 }

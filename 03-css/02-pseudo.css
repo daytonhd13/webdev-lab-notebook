@@ -2,3 +2,8 @@
   width: 600px;
   margin: 40px auto;
 }
+
+.container p::first-letter {
+  font-size: 200%;
+  font-weight: 700;
+}

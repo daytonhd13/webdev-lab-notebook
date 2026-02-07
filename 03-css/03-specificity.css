@@ -1,6 +1,6 @@
 /* Specificity Exercise */
 
-nav .list-item > a {
+nav .list-item>a {
   color: var(--purple);
 }
 
